@@ -1,0 +1,43 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.grid-template-columns {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid-template-rows {
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.item {
+    margin: 5px;
+    background: rgb(156, 84, 223);
+    text-align:center;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+h1 {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+.nav-title {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+.nav {
+    background: cadetblue;
+    margin: -55px -55px -55px -55px;
+    height: 50px;
+}
+.container {
+    margin: 5rem;
+}
